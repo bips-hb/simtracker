@@ -1,0 +1,95 @@
+Simulation folder for hello-world created successfully 
+Start or restart of the simulation 
+Checked the progress. Currently 0 out of 30 (0%) runs are done 
+Starting job:  1 
+Starting job:  16Done with job: 1 
+ 
+Storing results for job 1 in the file value1_10_outputA_ 1_FALSE_FALSE_ 1_ 1.rds 
+Done with job: 16 
+Storing results for job 16 in the file value1_10_outputA_ 6_FALSE_FALSE_16_16.rds 
+Starting job:  2 
+Starting job:  17 
+Done with job: 2 
+Storing results for job 2 in the file value2_20_outputB_ 1_FALSE_FALSE_ 2_ 2.rds 
+Done with job: 17 
+Storing results for job 17 in the file value2_20_outputB_ 6_FALSE_FALSE_17_17.rds 
+Starting job:  3 
+Done with job: 3 
+Storing results for job 3 in the file value3_30_outputC_ 1_FALSE_FALSE_ 3_ 3.rdsStarting job:  18  
+
+Done with job: 18 
+Storing results for job 18 in the file value3_30_outputC_ 6_FALSE_FALSE_18_18.rds 
+Starting job:  4 
+Done with job: 4 
+Storing results for job 4 in the file value1_10_outputA_ 2_FALSE_FALSE_ 4_ 4.rdsStarting job:  19  
+
+Done with job: 19 
+Storing results for job 19 in the file value1_10_outputA_ 7_FALSE_FALSE_19_19.rds 
+Starting job:  5 
+Done with job: 5 
+Storing results for job 5 in the file value2_20_outputB_ 2_FALSE_FALSE_ 5_ 5.rds 
+Starting job:  20 
+Done with job: 20 
+Storing results for job 20 in the file value2_20_outputB_ 7_FALSE_FALSE_20_20.rds 
+Starting job:  6 
+Done with job: 6 
+Storing results for job 6 in the file value3_30_outputC_ 2_FALSE_FALSE_ 6_ 6.rds 
+Starting job:  21 
+Done with job: 21 
+Storing results for job 21 in the file value3_30_outputC_ 7_FALSE_FALSE_21_21.rds 
+Starting job:  7 
+Done with job: 7 
+Storing results for job 7 in the file value1_10_outputA_ 3_FALSE_FALSE_ 7_ 7.rds 
+Starting job:  22 
+Done with job: 22 
+Starting job:  8 
+Storing results for job 22 in the file value1_10_outputA_ 8_FALSE_FALSE_22_22.rds 
+Done with job: 8 
+Storing results for job 8 in the file value2_20_outputB_ 3_FALSE_FALSE_ 8_ 8.rds 
+Starting job:  23 
+Done with job: 23 
+Starting job:  9 
+Storing results for job 23 in the file value2_20_outputB_ 8_FALSE_FALSE_23_23.rds 
+Done with job: 9 
+Storing results for job 9 in the file value3_30_outputC_ 3_FALSE_FALSE_ 9_ 9.rds 
+Starting job:  24 
+Done with job: 24 
+Starting job:  10 
+Storing results for job 24 in the file value3_30_outputC_ 8_FALSE_FALSE_24_24.rds 
+Done with job: 10 
+Storing results for job 10 in the file value1_10_outputA_ 4_FALSE_FALSE_10_10.rds 
+Starting job:  25 
+Done with job: 25 
+Storing results for job 25 in the file value1_10_outputA_ 9_FALSE_FALSE_25_25.rds 
+Starting job:  11 
+Done with job: 11 
+Storing results for job 11 in the file value2_20_outputB_ 4_FALSE_FALSE_11_11.rds 
+Starting job:  26 
+Done with job: 26 
+Storing results for job 26 in the file value2_20_outputB_ 9_FALSE_FALSE_26_26.rdsStarting job:  12  
+
+Done with job: 12 
+Storing results for job 12 in the file value3_30_outputC_ 4_FALSE_FALSE_12_12.rds 
+Starting job:  27 
+Done with job: 27 
+Starting job:  13 
+Storing results for job 27 in the file value3_30_outputC_ 9_FALSE_FALSE_27_27.rds 
+Done with job: 13 
+Storing results for job 13 in the file value1_10_outputA_ 5_FALSE_FALSE_13_13.rds 
+Starting job:  28 
+Done with job: 28 
+Storing results for job 28 in the file value1_10_outputA_10_FALSE_FALSE_28_28.rdsStarting job:  14  
+
+Done with job: 14 
+Storing results for job 14 in the file value2_20_outputB_ 5_FALSE_FALSE_14_14.rds 
+Starting job:  29 
+Done with job: 29 
+Storing results for job 29 in the file value2_20_outputB_10_FALSE_FALSE_29_29.rdsStarting job:  15  
+
+Done with job: 15 
+Storing results for job 15 in the file value3_30_outputC_ 5_FALSE_FALSE_15_15.rds 
+Starting job:  30 
+Done with job: 30 
+Storing results for job 30 in the file value3_30_outputC_10_FALSE_FALSE_30_30.rds 
+SIMULATION STUDY DONE. All results are in the simulations/results/ folder 
+Parallel cluster stopped successfully. 
