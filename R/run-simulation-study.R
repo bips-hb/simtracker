@@ -68,6 +68,9 @@ run_simulation_study <- function(cluster, sim_fn) {
     # get the parameters
     parameters <- simulation_settings[i,]
 
+    # set the seed
+    set.seed(parameters$seed)
+
     log_this(sprintf("Starting job:  %d", i))
 
     # apply a function to the parameter settings
@@ -77,7 +80,7 @@ run_simulation_study <- function(cluster, sim_fn) {
 
     results_filename <- paste0("simulations/results/", parameters$filename)
     log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
-    readr::write_rds(result, results_filename)
+    saveRDS(result, results_filename)
 
     return(NULL)
   })

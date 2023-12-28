@@ -1,95 +1,279 @@
-Simulation folder for hello-world created successfully 
+Simulation folder for ranger-performance created successfully 
 Start or restart of the simulation 
-Checked the progress. Currently 0 out of 30 (0%) runs are done 
+Checked the progress. Currently 0 out of 90 (0%) runs are done 
+SIMULATION STUDY DONE. All results are in the simulations/results/ folder 
+Parallel cluster stopped successfully. 
+Start or restart of the simulation 
+Checked the progress. Currently 0 out of 90 (0%) runs are done 
 Starting job:  1 
-Starting job:  16Done with job: 1 
- 
-Storing results for job 1 in the file value1_10_outputA_ 1_FALSE_FALSE_ 1_ 1.rds 
-Done with job: 16 
-Storing results for job 16 in the file value1_10_outputA_ 6_FALSE_FALSE_16_16.rds 
+Starting job:  46 
+Done with job: 1 
+Storing results for job 1 in the file 100_10_1_0_0_1_1.rds 
+Done with job: 46 
+Storing results for job 46 in the file 100_10_6_0_0_46_46.rds 
 Starting job:  2 
-Starting job:  17 
+Starting job:  47 
 Done with job: 2 
-Storing results for job 2 in the file value2_20_outputB_ 1_FALSE_FALSE_ 2_ 2.rds 
-Done with job: 17 
-Storing results for job 17 in the file value2_20_outputB_ 6_FALSE_FALSE_17_17.rds 
+Storing results for job 2 in the file 500_10_1_0_0_2_2.rds 
+Done with job: 47 
+Storing results for job 47 in the file 500_10_6_0_0_47_47.rds 
 Starting job:  3 
+Starting job:  48 
 Done with job: 3 
-Storing results for job 3 in the file value3_30_outputC_ 1_FALSE_FALSE_ 3_ 3.rdsStarting job:  18  
-
-Done with job: 18 
-Storing results for job 18 in the file value3_30_outputC_ 6_FALSE_FALSE_18_18.rds 
+Storing results for job 3 in the file 1000_10_1_0_0_3_3.rds 
+Done with job: 48 
+Storing results for job 48 in the file 1000_10_6_0_0_48_48.rds 
 Starting job:  4 
 Done with job: 4 
-Storing results for job 4 in the file value1_10_outputA_ 2_FALSE_FALSE_ 4_ 4.rdsStarting job:  19  
-
-Done with job: 19 
-Storing results for job 19 in the file value1_10_outputA_ 7_FALSE_FALSE_19_19.rds 
+Storing results for job 4 in the file 100_50_1_0_0_4_4.rds 
+Starting job:  49 
 Starting job:  5 
+Done with job: 49 
+Storing results for job 49 in the file 100_50_6_0_0_49_49.rds 
+Starting job:  50 
 Done with job: 5 
-Storing results for job 5 in the file value2_20_outputB_ 2_FALSE_FALSE_ 5_ 5.rds 
-Starting job:  20 
-Done with job: 20 
-Storing results for job 20 in the file value2_20_outputB_ 7_FALSE_FALSE_20_20.rds 
+Storing results for job 5 in the file 500_50_1_0_0_5_5.rds 
+Done with job: 50 
+Storing results for job 50 in the file 500_50_6_0_0_50_50.rds 
 Starting job:  6 
+Starting job:  51 
 Done with job: 6 
-Storing results for job 6 in the file value3_30_outputC_ 2_FALSE_FALSE_ 6_ 6.rds 
+Storing results for job 6 in the file 1000_50_1_0_0_6_6.rds 
+Done with job: 51 
+Storing results for job 51 in the file 1000_50_6_0_0_51_51.rds 
+Starting job:  7 
+Starting job:  52 
+Done with job: 7 
+Storing results for job 7 in the file 100_100_1_0_0_7_7.rds 
+Done with job: 52 
+Storing results for job 52 in the file 100_100_6_0_0_52_52.rds 
+Starting job:  8 
+Starting job:  53 
+Done with job: 8 
+Storing results for job 8 in the file 500_100_1_0_0_8_8.rds 
+Done with job: 53 
+Storing results for job 53 in the file 500_100_6_0_0_53_53.rds 
+Starting job:  9 
+Starting job:  54 
+Done with job: 54 
+Storing results for job 54 in the file 1000_100_6_0_0_54_54.rds 
+Done with job: 9 
+Storing results for job 9 in the file 1000_100_1_0_0_9_9.rds 
+Starting job:  55 
+Starting job:  10 
+Done with job: 55 
+Storing results for job 55 in the file 100_10_7_0_0_55_55.rds 
+Done with job: 10 
+Storing results for job 10 in the file 100_10_2_0_0_10_10.rds 
+Starting job:  56 
+Starting job:  11 
+Done with job: 56 
+Storing results for job 56 in the file 500_10_7_0_0_56_56.rds 
+Done with job: 11 
+Storing results for job 11 in the file 500_10_2_0_0_11_11.rds 
+Starting job:  57 
+Starting job:  12 
+Done with job: 57 
+Storing results for job 57 in the file 1000_10_7_0_0_57_57.rds 
+Done with job: 12 
+Storing results for job 12 in the file 1000_10_2_0_0_12_12.rds 
+Starting job:  58 
+Done with job: 58 
+Storing results for job 58 in the file 100_50_7_0_0_58_58.rds 
+Starting job:  13 
+Done with job: 13 
+Storing results for job 13 in the file 100_50_2_0_0_13_13.rds 
+Starting job:  59 
+Starting job:  14 
+Done with job: 59 
+Storing results for job 59 in the file 500_50_7_0_0_59_59.rds 
+Done with job: 14 
+Storing results for job 14 in the file 500_50_2_0_0_14_14.rds 
+Starting job:  60 
+Starting job:  15 
+Done with job: 60 
+Storing results for job 60 in the file 1000_50_7_0_0_60_60.rds 
+Done with job: 15 
+Storing results for job 15 in the file 1000_50_2_0_0_15_15.rds 
+Starting job:  61 
+Starting job:  16 
+Done with job: 61 
+Storing results for job 61 in the file 100_100_7_0_0_61_61.rds 
+Starting job:  62 
+Done with job: 16 
+Storing results for job 16 in the file 100_100_2_0_0_16_16.rds 
+Starting job:  17 
+Done with job: 62 
+Storing results for job 62 in the file 500_100_7_0_0_62_62.rds 
+Done with job: 17 
+Storing results for job 17 in the file 500_100_2_0_0_17_17.rds 
+Starting job:  63 
+Starting job:  18 
+Done with job: 63 
+Storing results for job 63 in the file 1000_100_7_0_0_63_63.rds 
+Done with job: 18 
+Storing results for job 18 in the file 1000_100_2_0_0_18_18.rds 
+Starting job:  64 
+Done with job: 64 
+Storing results for job 64 in the file 100_10_8_0_0_64_64.rds 
+Starting job:  19 
+Done with job: 19 
+Storing results for job 19 in the file 100_10_3_0_0_19_19.rds 
+Starting job:  65 
+Starting job:  20 
+Done with job: 65 
+Storing results for job 65 in the file 500_10_8_0_0_65_65.rds 
+Done with job: 20 
+Storing results for job 20 in the file 500_10_3_0_0_20_20.rds 
+Starting job:  66 
 Starting job:  21 
 Done with job: 21 
-Storing results for job 21 in the file value3_30_outputC_ 7_FALSE_FALSE_21_21.rds 
-Starting job:  7 
-Done with job: 7 
-Storing results for job 7 in the file value1_10_outputA_ 3_FALSE_FALSE_ 7_ 7.rds 
+Storing results for job 21 in the file 1000_10_3_0_0_21_21.rds 
+Done with job: 66 
+Storing results for job 66 in the file 1000_10_8_0_0_66_66.rds 
 Starting job:  22 
+Starting job:  67 
 Done with job: 22 
-Starting job:  8 
-Storing results for job 22 in the file value1_10_outputA_ 8_FALSE_FALSE_22_22.rds 
-Done with job: 8 
-Storing results for job 8 in the file value2_20_outputB_ 3_FALSE_FALSE_ 8_ 8.rds 
+Storing results for job 22 in the file 100_50_3_0_0_22_22.rds 
+Done with job: 67 
+Storing results for job 67 in the file 100_50_8_0_0_67_67.rds 
 Starting job:  23 
+Starting job:  68 
 Done with job: 23 
-Starting job:  9 
-Storing results for job 23 in the file value2_20_outputB_ 8_FALSE_FALSE_23_23.rds 
-Done with job: 9 
-Storing results for job 9 in the file value3_30_outputC_ 3_FALSE_FALSE_ 9_ 9.rds 
+Storing results for job 23 in the file 500_50_3_0_0_23_23.rds 
+Done with job: 68 
+Storing results for job 68 in the file 500_50_8_0_0_68_68.rds 
 Starting job:  24 
+Starting job:  69 
 Done with job: 24 
-Starting job:  10 
-Storing results for job 24 in the file value3_30_outputC_ 8_FALSE_FALSE_24_24.rds 
-Done with job: 10 
-Storing results for job 10 in the file value1_10_outputA_ 4_FALSE_FALSE_10_10.rds 
+Storing results for job 24 in the file 1000_50_3_0_0_24_24.rds 
+Done with job: 69 
+Storing results for job 69 in the file 1000_50_8_0_0_69_69.rds 
 Starting job:  25 
+Starting job:  70 
 Done with job: 25 
-Storing results for job 25 in the file value1_10_outputA_ 9_FALSE_FALSE_25_25.rds 
-Starting job:  11 
-Done with job: 11 
-Storing results for job 11 in the file value2_20_outputB_ 4_FALSE_FALSE_11_11.rds 
+Storing results for job 25 in the file 100_100_3_0_0_25_25.rds 
+Done with job: 70 
+Storing results for job 70 in the file 100_100_8_0_0_70_70.rds 
 Starting job:  26 
+Starting job:  71 
 Done with job: 26 
-Storing results for job 26 in the file value2_20_outputB_ 9_FALSE_FALSE_26_26.rdsStarting job:  12  
-
-Done with job: 12 
-Storing results for job 12 in the file value3_30_outputC_ 4_FALSE_FALSE_12_12.rds 
+Storing results for job 26 in the file 500_100_3_0_0_26_26.rds 
+Done with job: 71 
+Storing results for job 71 in the file 500_100_8_0_0_71_71.rds 
 Starting job:  27 
+Starting job:  72 
 Done with job: 27 
-Starting job:  13 
-Storing results for job 27 in the file value3_30_outputC_ 9_FALSE_FALSE_27_27.rds 
-Done with job: 13 
-Storing results for job 13 in the file value1_10_outputA_ 5_FALSE_FALSE_13_13.rds 
+Storing results for job 27 in the file 1000_100_3_0_0_27_27.rds 
+Done with job: 72 
+Storing results for job 72 in the file 1000_100_8_0_0_72_72.rds 
 Starting job:  28 
 Done with job: 28 
-Storing results for job 28 in the file value1_10_outputA_10_FALSE_FALSE_28_28.rdsStarting job:  14  
-
-Done with job: 14 
-Storing results for job 14 in the file value2_20_outputB_ 5_FALSE_FALSE_14_14.rds 
+Storing results for job 28 in the file 100_10_4_0_0_28_28.rds 
 Starting job:  29 
+Starting job:  73 
 Done with job: 29 
-Storing results for job 29 in the file value2_20_outputB_10_FALSE_FALSE_29_29.rdsStarting job:  15  
-
-Done with job: 15 
-Storing results for job 15 in the file value3_30_outputC_ 5_FALSE_FALSE_15_15.rds 
+Done with job: 73 
+Storing results for job 29 in the file 500_10_4_0_0_29_29.rds 
+Storing results for job 73 in the file 100_10_9_0_0_73_73.rds 
+Starting job:  74 
+Done with job: 74 
+Storing results for job 74 in the file 500_10_9_0_0_74_74.rds 
 Starting job:  30 
 Done with job: 30 
-Storing results for job 30 in the file value3_30_outputC_10_FALSE_FALSE_30_30.rds 
+Storing results for job 30 in the file 1000_10_4_0_0_30_30.rdsStarting job:  75  
+
+Done with job: 75 
+Storing results for job 75 in the file 1000_10_9_0_0_75_75.rds 
+Starting job:  31 
+Done with job: 31 
+Storing results for job 31 in the file 100_50_4_0_0_31_31.rds 
+Starting job:  32 
+Starting job:  76 
+Done with job: 76 
+Storing results for job 76 in the file 100_50_9_0_0_76_76.rds 
+Done with job: 32 
+Storing results for job 32 in the file 500_50_4_0_0_32_32.rds 
+Starting job:  77 
+Done with job: 77 
+Storing results for job 77 in the file 500_50_9_0_0_77_77.rds 
+Starting job:  33 
+Starting job:  78 
+Done with job: 33 
+Storing results for job 33 in the file 1000_50_4_0_0_33_33.rds 
+Done with job: 78 
+Storing results for job 78 in the file 1000_50_9_0_0_78_78.rds 
+Starting job:  34 
+Done with job: 34 
+Storing results for job 34 in the file 100_100_4_0_0_34_34.rds 
+Starting job:  35 
+Starting job:  79 
+Done with job: 79 
+Storing results for job 79 in the file 100_100_9_0_0_79_79.rds 
+Starting job:  80 
+Done with job: 35 
+Storing results for job 35 in the file 500_100_4_0_0_35_35.rds 
+Done with job: 80 
+Storing results for job 80 in the file 500_100_9_0_0_80_80.rds 
+Starting job:  36 
+Starting job:  81 
+Done with job: 81 
+Storing results for job 81 in the file 1000_100_9_0_0_81_81.rds Done with job: 36
+ 
+Storing results for job 36 in the file 1000_100_4_0_0_36_36.rds 
+Starting job:  82 
+Starting job:  37 
+Done with job: 37 
+Storing results for job 37 in the file 100_10_5_0_0_37_37.rds 
+Done with job: 82 
+Storing results for job 82 in the file 100_10_10_0_0_82_82.rds 
+Starting job:  38 
+Starting job:  83 
+Done with job: 38 
+Storing results for job 38 in the file 500_10_5_0_0_38_38.rds 
+Done with job: 83 
+Storing results for job 83 in the file 500_10_10_0_0_83_83.rds 
+Starting job:  39 
+Starting job:  84 
+Done with job: 39 
+Storing results for job 39 in the file 1000_10_5_0_0_39_39.rds 
+Done with job: 84 
+Storing results for job 84 in the file 1000_10_10_0_0_84_84.rds 
+Starting job:  40 
+Done with job: 40 
+Storing results for job 40 in the file 100_50_5_0_0_40_40.rds 
+Starting job:  85 
+Starting job:  41 
+Done with job: 85 
+Storing results for job 85 in the file 100_50_10_0_0_85_85.rds 
+Starting job:  86 
+Done with job: 41 
+Storing results for job 41 in the file 500_50_5_0_0_41_41.rds 
+Done with job: 86 
+Storing results for job 86 in the file 500_50_10_0_0_86_86.rds 
+Starting job:  42 
+Starting job:  87 
+Done with job: 42 
+Storing results for job 42 in the file 1000_50_5_0_0_42_42.rds 
+Done with job: 87 
+Storing results for job 87 in the file 1000_50_10_0_0_87_87.rds 
+Starting job:  43 
+Done with job: 43 
+Storing results for job 43 in the file 100_100_5_0_0_43_43.rds 
+Starting job:  44 
+Done with job: 44 
+Storing results for job 44 in the file 500_100_5_0_0_44_44.rds 
+Starting job:  88 
+Done with job: 88 
+Storing results for job 88 in the file 100_100_10_0_0_88_88.rds 
+Starting job:  89 
+Starting job:  45 
+Done with job: 89 
+Storing results for job 89 in the file 500_100_10_0_0_89_89.rds 
+Starting job:  90 
+Done with job: 45 
+Storing results for job 45 in the file 1000_100_5_0_0_45_45.rds 
+Done with job: 90 
+Storing results for job 90 in the file 1000_100_10_0_0_90_90.rds 
 SIMULATION STUDY DONE. All results are in the simulations/results/ folder 
 Parallel cluster stopped successfully. 
