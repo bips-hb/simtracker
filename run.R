@@ -22,11 +22,13 @@ simulation_settings <- simtracker::initialize_simulation_settings(parameter_sett
 
 # Load the function applied to each parameter setting
 source("simulation-function.R")
+source("process-function.R")
 
 # Set up a parallel cluster for parallel processing
 cl <- simtracker::create_cluster(
   list_needed_functions_variables = list("simulation_settings",
-                                         "sim_fn"),
+                                         "sim_fn",
+                                         "process_fn"),
   num_workers = n_workers
 )
 
@@ -39,7 +41,10 @@ parallel::clusterEvalQ(cl, {
 })
 
 # Run the simulation study using the specified function
-run_simulation_study(cl, sim_fn)
+simtracker::run_simulation_study(cl, sim_fn)
+
+# Processes the results from the simulation study
+simtracker::process_results_simulation(cl, process_fn)
 
 # Stop and clean up the parallel cluster
 simtracker::stop_cluster(cl)
