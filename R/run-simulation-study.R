@@ -79,6 +79,9 @@ run_simulation_study <- function(cluster, sim_fn) {
       # apply a function to the parameter settings
       result <- sim_fn(parameters)
 
+      # add the parameter settings to the result
+      result$parameters <- parameters
+
       log_this(sprintf("Done with job: %d", i))
 
       results_filename <- paste0("simulations/results/", parameters$filename)
@@ -100,6 +103,9 @@ run_simulation_study <- function(cluster, sim_fn) {
 
       # apply a function to the parameter settings
       result <- sim_fn(parameters)
+
+      # add the parameter settings to the result
+      result$parameters <- parameters
 
       log_this(sprintf("Done with job: %d", i))
 
