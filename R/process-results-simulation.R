@@ -6,7 +6,8 @@
 #' of the simulation_settings tibble.
 #'
 #' @param cluster A parallel cluster object created using functions from the
-#'                parallel package, e.g., \code{simtracker::create_cluster}
+#'                parallel package, e.g., \code{simtracker::create_cluster}.
+#'                If \code{cluster = NULL}, the function is run sequentially.
 #' @param process_function A function to be applied to each row of simulation_settings.
 #'
 #' @return The result of applying the specified function to each row of simulation_settings.
@@ -18,7 +19,7 @@
 #' }
 #'
 #' @export
-process_results_simulation <- function(cluster, process_function) {
+process_results_simulation <- function(cluster = NULL, process_function) {
   # Get simulation settings using simtracker::check_progress
   simulation_settings <- simtracker::check_progress()
 
@@ -39,20 +40,40 @@ process_results_simulation <- function(cluster, process_function) {
   # Get only the settings for which the results are in
   simulation_settings <- simulation_settings %>% filter(ran)
 
-  # Apply the specified function to each row that still needs to run
-  results <- parLapply(cl = cluster, 1:nrow(simulation_settings), function(i) {
+  # Apply the specified function to each row that still needs to run ------
 
-    log_this(sprintf("Processing results of run %d", i))
+  if (is.null(cluster)) { # run the code sequentially
 
-    # Get the parameters
-    parameters <- simulation_settings[i,]
+    results <- lapply(1:nrow(simulation_settings), function(i) {
+      log_this(sprintf("Processing results of run %d", i))
 
-    # Load the results file for that parameter settings
-    result <- readRDS(paste0('simulations/results/', parameters$filename))
+      # Get the parameters
+      parameters <- simulation_settings[i, ]
 
-    # Apply the user-specified processing function
-    return(process_function(result))
-  })
+      # Load the results file for that parameter settings
+      result <-
+        readRDS(paste0('simulations/results/', parameters$filename))
+
+      # Apply the user-specified processing function
+      return(process_function(result))
+    })
+
+  } else { # run in parallel
+    results <-
+      parLapply(cl = cluster, 1:nrow(simulation_settings), function(i) {
+        log_this(sprintf("Processing results of run %d", i))
+
+        # Get the parameters
+        parameters <- simulation_settings[i, ]
+
+        # Load the results file for that parameter settings
+        result <-
+          readRDS(paste0('simulations/results/', parameters$filename))
+
+        # Apply the user-specified processing function
+        return(process_function(result))
+      })
+  }
 
   # Save the processed results as an RDS file
   saveRDS(results, file = "simulations/processed-results.rds")

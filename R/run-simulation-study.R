@@ -5,7 +5,8 @@
 #' processing with a provided cluster.
 #'
 #' @param cluster A parallel cluster object created using functions from the
-#' parallel package, e.g., makeCluster.
+#' parallel package, e.g., makeCluster. If \code{NULL} (Default), then the code
+#' is run sequentially and not in parallel.
 #'
 #' @param sim_fn A function that takes a set of simulation parameters as input
 #' and returns the simulation results.
@@ -62,28 +63,53 @@ run_simulation_study <- function(cluster, sim_fn) {
 
   simulation_settings <- simulation_settings %>% filter(!ran)
 
-  # Apply the specified function to each row that still needs to run
-  parLapply(cl = cluster, 1:nrow(simulation_settings), function(i){
+  # Apply the specified function to each row that still needs to run ----------
 
-    # get the parameters
-    parameters <- simulation_settings[i,]
+  if (is.null(cluster)) { # run code sequentially
+    lapply(1:nrow(simulation_settings), function(i) {
 
-    # set the seed
-    set.seed(parameters$seed)
+      # get the parameters
+      parameters <- simulation_settings[i,]
 
-    log_this(sprintf("Starting job:  %d", i))
+      # set the seed
+      set.seed(parameters$seed)
 
-    # apply a function to the parameter settings
-    result <- sim_fn(parameters)
+      log_this(sprintf("Starting job:  %d", i))
 
-    log_this(sprintf("Done with job: %d", i))
+      # apply a function to the parameter settings
+      result <- sim_fn(parameters)
 
-    results_filename <- paste0("simulations/results/", parameters$filename)
-    log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
-    saveRDS(result, results_filename)
+      log_this(sprintf("Done with job: %d", i))
 
-    return(NULL)
-  })
+      results_filename <- paste0("simulations/results/", parameters$filename)
+      log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
+      saveRDS(result, results_filename)
+
+      return(NULL)
+    })
+  } else { # run in parallel
+    parLapply(cl = cluster, 1:nrow(simulation_settings), function(i) {
+
+      # get the parameters
+      parameters <- simulation_settings[i,]
+
+      # set the seed
+      set.seed(parameters$seed)
+
+      log_this(sprintf("Starting job:  %d", i))
+
+      # apply a function to the parameter settings
+      result <- sim_fn(parameters)
+
+      log_this(sprintf("Done with job: %d", i))
+
+      results_filename <- paste0("simulations/results/", parameters$filename)
+      log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
+      saveRDS(result, results_filename)
+
+      return(NULL)
+    })
+  }
 
   simtracker::check_progress()
 

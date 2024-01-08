@@ -4,11 +4,12 @@
 \alias{process_results_simulation}
 \title{Process Simulation Results}
 \usage{
-process_results_simulation(cluster, process_function)
+process_results_simulation(cluster = NULL, process_function)
 }
 \arguments{
 \item{cluster}{A parallel cluster object created using functions from the
-parallel package, e.g., \code{simtracker::create_cluster}}
+parallel package, e.g., \code{simtracker::create_cluster}.
+If \code{cluster = NULL}, the function is run sequentially.}
 
 \item{process_function}{A function to be applied to each row of simulation_settings.}
 }

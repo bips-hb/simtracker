@@ -8,7 +8,8 @@ run_simulation_study(cluster, sim_fn)
 }
 \arguments{
 \item{cluster}{A parallel cluster object created using functions from the
-parallel package, e.g., makeCluster.}
+parallel package, e.g., makeCluster. If \code{NULL} (Default), then the code
+is run sequentially and not in parallel.}
 
 \item{sim_fn}{A function that takes a set of simulation parameters as input
 and returns the simulation results.}
