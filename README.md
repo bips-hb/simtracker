@@ -1,4 +1,4 @@
-Sw# simtracker: A Simulation Tracking Package for R
+# simtracker: A Simulation Tracking Package for R
 
 ## Overview
 
