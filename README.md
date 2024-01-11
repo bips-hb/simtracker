@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `simtracker` package is designed to facilitate the tracking and management of simulation studies in R. Originally intended for use on the BIPS (Bremen International Graduate School of Science and Engineering) workstation, it is adaptable for use on your local machine as well. The package is currently a work in progress.
+The `simtracker` package is designed to facilitate the tracking and management of simulation studies in R. Originally intended for use on the BIPS workstation, it is adaptable for use on your local machine as well. The package is currently a work in progress.
 
 ## Motivation
 
