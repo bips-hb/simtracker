@@ -39,7 +39,7 @@ run_simulation_study <- function(cluster, sim_fn) {
     stop("The simulation settings file does not exist. Simulation stopped.")
   }
 
-  log_this("Start or restart of the simulation")
+  log_this("Start or restart of the simulation at", Sys.time())
 
   # Read in the RDS file and check the current status
   simulation_settings <- simtracker::check_progress()
@@ -76,21 +76,27 @@ run_simulation_study <- function(cluster, sim_fn) {
 
       log_this(sprintf("Starting job:  %d", i))
 
-      # apply a function to the parameter settings
-      result <- sim_fn(parameters)
+      # apply a function to the parameter settings. If the run fails, this is send
+      # to the log-file. Warnings are ignored
+      tryCatch({
+        result <- sim_fn(parameters)
 
-      # add the parameter settings to the result
-      result$parameters <- parameters
+        # add the parameter settings to the result
+        result$parameters <- parameters
 
-      log_this(sprintf("Done with job: %d", i))
+        log_this(sprintf("Done with job: %d", i))
 
-      results_filename <- paste0("simulations/results/", parameters$filename)
-      log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
-      saveRDS(result, results_filename)
+        results_filename <- paste0("simulations/results/", parameters$filename)
+        log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
+        saveRDS(result, results_filename)
 
-      # actively remove the result from the environment to reduce memory usage
-      rm(result)
-      gc() # garbage collection. Normally done automatically
+        # actively remove the result from the environment to reduce memory usage
+        rm(result)
+        gc() # garbage collection. Normally done automatically
+      }, error = function(e) {
+        log_this(sprintf("ERROR: The simulation run for the file %s returned an error and did not finish\n", parameters$filename))
+        log_this(e)
+      })
 
       return(NULL)
     })
@@ -105,29 +111,40 @@ run_simulation_study <- function(cluster, sim_fn) {
 
       log_this(sprintf("Starting job:  %d", i))
 
-      # apply a function to the parameter settings
-      result <- sim_fn(parameters)
+      # apply a function to the parameter settings. If the run fails, this is send
+      # to the log-file. Warnings are ignored
+      tryCatch({
+        result <- sim_fn(parameters)
 
-      # add the parameter settings to the result
-      result$parameters <- parameters
+        # add the parameter settings to the result
+        result$parameters <- parameters
 
-      log_this(sprintf("Done with job: %d", i))
+        log_this(sprintf("Done with job: %d", i))
 
-      results_filename <- paste0("simulations/results/", parameters$filename)
-      log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
-      saveRDS(result, results_filename)
+        results_filename <- paste0("simulations/results/", parameters$filename)
+        log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
+        saveRDS(result, results_filename)
 
-      # actively remove the result from the environment to reduce memory usage
-      rm(result)
-      gc() # garbage collection. Normally done automatically
+        # actively remove the result from the environment to reduce memory usage
+        rm(result)
+        gc() # garbage collection. Normally done automatically
+      }, error = function(e) {
+        log_this(sprintf("ERROR: The simulation run for the file %s returned an error and did not finish\n", parameters$filename))
+        log_this(e)
+      })
 
       return(NULL)
     })
   }
 
-  simtracker::check_progress()
+  simulation_settings <- simtracker::check_progress()
 
-  message <- "SIMULATION STUDY DONE. All results are in the simulations/results/ folder"
+  if (all(simulation_settings$ran)) {
+    message <- "SIMULATION STUDY DONE. All results are in the simulations/results/ folder"
+  } else {
+    message <- "Simulation ran through but did not work for some parameter settings. See the log-file (simulations/log.txt) and look for ERROR"
+  }
+
   log_this(message)
   cat(message, '\n')
 

@@ -22,7 +22,7 @@ of the simulation_settings tibble.
 \examples{
 \dontrun{
 # Example of using process_results_simulation with a custom process function
-result <- process_results_simulation(my_custom_process_function)
+process_results_simulation(my_custom_process_function)
 }
 
 }

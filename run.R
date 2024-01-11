@@ -45,7 +45,7 @@ parallel::clusterEvalQ(cl, {
 })
 
 # Run the simulation study using the specified function
-simtracker::run_simulation_study(cl, sim_fn)
+simtracker::run_simulation_study(cl = NULL, sim_fn)
 
 # Processes the results from the simulation study
 simtracker::process_results_simulation(cl, process_fn)
