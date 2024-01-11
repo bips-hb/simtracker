@@ -10,12 +10,12 @@
 #'                If \code{cluster = NULL}, the function is run sequentially.
 #' @param process_function A function to be applied to each row of simulation_settings.
 #'
-#' @return The result of applying the specified function to each row of simulation_settings.
+#' @return NULL
 #'
 #' @examples
 #' \dontrun{
 #' # Example of using process_results_simulation with a custom process function
-#' result <- process_results_simulation(my_custom_process_function)
+#' process_results_simulation(my_custom_process_function)
 #' }
 #'
 #' @export
@@ -81,6 +81,5 @@ process_results_simulation <- function(cluster = NULL, process_function) {
   log_this("DONE Processing results")
   log_this("Results are stored in simulations/processed-results.rds")
 
-  # Return the results
-  return(results)
+  invisible(NULL)
 }

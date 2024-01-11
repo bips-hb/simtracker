@@ -13,9 +13,6 @@ If \code{cluster = NULL}, the function is run sequentially.}
 
 \item{process_function}{A function to be applied to each row of simulation_settings.}
 }
-\value{
-The result of applying the specified function to each row of simulation_settings.
-}
 \description{
 This function retrieves simulation settings using simtracker::check_progress.
 Any simulations that have not run yet (checked by the 'ran' field being TRUE) are ignored,
