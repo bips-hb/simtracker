@@ -12,7 +12,7 @@
 #' number of times. It adds columns for replication index, whether it has been run, whether it should be ignored,
 #' random seed, job ID, and a unique filename for each row. Before proceeding, it checks if the 'simulations'
 #' directory exists. If not, it stops and displays an error message. It also checks if the 'simulation-settings.rds'
-#' file already exists. If it does, the function stops and displays an error message.
+#' file already exists. If it does, the function gives a warning and returns the existing simulation settings.
 #'
 #' @examples
 #' \dontrun{
@@ -30,7 +30,8 @@ initialize_simulation_settings <- function(input_tibble, repetitions) {
 
   # Check if the 'simulation-settings.rds' file exists
   if (file.exists("simulations/simulation-settings.rds")) {
-    stop("Error: The 'simulation-settings.rds' file already exists. Cannot proceed.")
+    warning("The 'simulation-settings.rds' file already exists. Function returns existing simulation settings")
+    return(readRDS("simulations/simulation-settings.rds"))
   }
 
   if (!inherits(input_tibble, "data.frame")) {

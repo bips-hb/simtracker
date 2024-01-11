@@ -22,7 +22,7 @@ This function initializes simulation settings by repeating a tibble of parameter
 number of times. It adds columns for replication index, whether it has been run, whether it should be ignored,
 random seed, job ID, and a unique filename for each row. Before proceeding, it checks if the 'simulations'
 directory exists. If not, it stops and displays an error message. It also checks if the 'simulation-settings.rds'
-file already exists. If it does, the function stops and displays an error message.
+file already exists. If it does, the function gives a warning and returns the existing simulation settings.
 }
 \examples{
 \dontrun{
