@@ -20,7 +20,8 @@ setup_simulation <- function(simulation_name) {
   # Check if simulations directory already exists
   simulations_dir <- "simulations"
   if (dir.exists(simulations_dir)) {
-    stop("The 'simulations' directory already exists. Only one simulation per repository is allowed.")
+    warning("The 'simulations' directory already exists. Only one simulation per repository is allowed.")
+    return(NULL)
   }
 
   # Create simulations directory
