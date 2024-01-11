@@ -25,6 +25,10 @@ log_this <- function(...) {
   # Capture the lines to be logged
   lines_to_log <- paste(..., collapse = "\n")
 
+  # Write the time first
+  current_time <- format(Sys.time(), "%H:%M:%S %Y-%m-%d")
+  cat(paste0("(", current_time, ") "), file = file_conn)
+
   # Write lines to the file
   cat(lines_to_log, "\n", file = file_conn)
 
