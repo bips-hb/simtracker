@@ -88,6 +88,10 @@ run_simulation_study <- function(cluster, sim_fn) {
       log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
       saveRDS(result, results_filename)
 
+      # actively remove the result from the environment to reduce memory usage
+      rm(result)
+      gc() # garbage collection. Normally done automatically
+
       return(NULL)
     })
   } else { # run in parallel
@@ -113,6 +117,10 @@ run_simulation_study <- function(cluster, sim_fn) {
       log_this(sprintf("Storing results for job %d in the file %s", i, parameters$filename))
       saveRDS(result, results_filename)
 
+      # actively remove the result from the environment to reduce memory usage
+      rm(result)
+      gc() # garbage collection. Normally done automatically
+
       return(NULL)
     })
   }
@@ -122,4 +130,6 @@ run_simulation_study <- function(cluster, sim_fn) {
   message <- "SIMULATION STUDY DONE. All results are in the simulations/results/ folder"
   log_this(message)
   cat(message, '\n')
+
+  return(NULL)
 }

@@ -38,6 +38,5 @@ sim_fn <- function(parameters) {
   # Fit a random forest model using ranger
   rf_model <- ranger::ranger(response ~ ., data = data_df, num.trees = 100)
 
-  # Return the random forest model
   return(rf_model)
 }
