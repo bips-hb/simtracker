@@ -1,368 +1,382 @@
-(15:37:44 2024-01-11) Simulation folder for ranger-performance created successfully 
-(15:37:45 2024-01-11) Start or restart of the simulation at 2024-01-11 15:37:45 
-(15:37:45 2024-01-11) Checked the progress. Currently 0 out of 90 (0%) runs are done 
-(15:37:45 2024-01-11) Starting job:  1 
-(15:37:45 2024-01-11) Starting job:  46 
-(15:37:45 2024-01-11) Done with job: 1 
-(15:37:45 2024-01-11) Storing results for job 1 in the file 100_10_1_0_0_1_1.rds 
-(15:37:45 2024-01-11) Done with job: 46 
-(15:37:45 2024-01-11) Storing results for job 46 in the file 100_10_6_0_0_46_46.rds 
-(15:37:45 2024-01-11) Starting job:  47 
-(15:37:45 2024-01-11) Starting job:  2 
-(15:37:45 2024-01-11) Done with job: 47 
-(15:37:45 2024-01-11) Storing results for job 47 in the file 500_10_6_0_0_47_47.rds 
-(15:37:45 2024-01-11) Done with job: 2 
-(15:37:45 2024-01-11) Storing results for job 2 in the file 500_10_1_0_0_2_2.rds 
-(15:37:45 2024-01-11) Starting job:  3 
-(15:37:45 2024-01-11) Starting job:  48 
-(15:37:45 2024-01-11) Done with job: 48 
-(15:37:45 2024-01-11) Storing results for job 48 in the file 1000_10_6_0_0_48_48.rds 
-(15:37:45 2024-01-11) Done with job: 3 
-(15:37:45 2024-01-11) Storing results for job 3 in the file 1000_10_1_0_0_3_3.rds 
-(15:37:45 2024-01-11) Starting job:  4 
-(15:37:45 2024-01-11) Starting job:  49 
-(15:37:45 2024-01-11) Done with job: 4 
-(15:37:45 2024-01-11) Storing results for job 4 in the file 100_50_1_0_0_4_4.rds 
-(15:37:45 2024-01-11) Done with job: 49 
-(15:37:45 2024-01-11) Storing results for job 49 in the file 100_50_6_0_0_49_49.rds 
-(15:37:45 2024-01-11) Starting job:  5 
-(15:37:45 2024-01-11) Starting job:  50 
-(15:37:45 2024-01-11) Done with job: 5 
-(15:37:45 2024-01-11) Storing results for job 5 in the file 500_50_1_0_0_5_5.rds 
-(15:37:45 2024-01-11) Done with job: 50 
-(15:37:45 2024-01-11) Storing results for job 50 in the file 500_50_6_0_0_50_50.rds 
-(15:37:45 2024-01-11) Starting job:  6 
-(15:37:45 2024-01-11) Starting job:  51 
-(15:37:45 2024-01-11) Done with job: 51 
-(15:37:45 2024-01-11) Storing results for job 51 in the file 1000_50_6_0_0_51_51.rds 
-(15:37:45 2024-01-11) Done with job: 6 
-(15:37:45 2024-01-11) Storing results for job 6 in the file 1000_50_1_0_0_6_6.rds 
-(15:37:46 2024-01-11) Starting job:  52 
-(15:37:46 2024-01-11) Done with job: 52 
-(15:37:46 2024-01-11) Storing results for job 52 in the file 100_100_6_0_0_52_52.rds 
-(15:37:46 2024-01-11) Starting job:  7 
-(15:37:46 2024-01-11) Done with job: 7 
-(15:37:46 2024-01-11) Storing results for job 7 in the file 100_100_1_0_0_7_7.rds 
-(15:37:46 2024-01-11) Starting job:  53 
-(15:37:46 2024-01-11) Starting job:  8 
-(15:37:46 2024-01-11) Done with job: 53 
-(15:37:46 2024-01-11) Storing results for job 53 in the file 500_100_6_0_0_53_53.rds 
-(15:37:46 2024-01-11) Done with job: 8 
-(15:37:46 2024-01-11) Storing results for job 8 in the file 500_100_1_0_0_8_8.rds 
-(15:37:46 2024-01-11) Starting job:  54 
-(15:37:46 2024-01-11) Starting job:  9 
-(15:37:46 2024-01-11) Done with job: 9 
-(15:37:46 2024-01-11) Storing results for job 9 in the file 1000_100_1_0_0_9_9.rds 
-(15:37:46 2024-01-11) Done with job: 54 
-(15:37:46 2024-01-11) Storing results for job 54 in the file 1000_100_6_0_0_54_54.rds 
-(15:37:46 2024-01-11) Starting job:  10 
-(15:37:46 2024-01-11) Done with job: 10 
-(15:37:46 2024-01-11) Storing results for job 10 in the file 100_10_2_0_0_10_10.rds 
-(15:37:46 2024-01-11) Starting job:  55 
-(15:37:46 2024-01-11) Done with job: 55 
-(15:37:46 2024-01-11) Storing results for job 55 in the file 100_10_7_0_0_55_55.rds 
-(15:37:46 2024-01-11) Starting job:  11 
-(15:37:46 2024-01-11) Starting job:  56 
-(15:37:46 2024-01-11) Done with job: 11 
-(15:37:46 2024-01-11) Storing results for job 11 in the file 500_10_2_0_0_11_11.rds 
-(15:37:46 2024-01-11) Done with job: 56 
-(15:37:46 2024-01-11) Storing results for job 56 in the file 500_10_7_0_0_56_56.rds 
-(15:37:46 2024-01-11) Starting job:  12 
-(15:37:46 2024-01-11) Starting job:  57 
-(15:37:46 2024-01-11) Done with job: 12 
-(15:37:46 2024-01-11) Storing results for job 12 in the file 1000_10_2_0_0_12_12.rds 
-(15:37:46 2024-01-11) Done with job: 57 
-(15:37:46 2024-01-11) Storing results for job 57 in the file 1000_10_7_0_0_57_57.rds 
-(15:37:46 2024-01-11) Starting job:  13 
-(15:37:46 2024-01-11) Starting job:  58 
-(15:37:46 2024-01-11) Done with job: 13 
-(15:37:46 2024-01-11) Storing results for job 13 in the file 100_50_2_0_0_13_13.rds 
-(15:37:46 2024-01-11) Done with job: 58 
-(15:37:46 2024-01-11) Storing results for job 58 in the file 100_50_7_0_0_58_58.rds 
-(15:37:46 2024-01-11) Starting job:  59 
-(15:37:46 2024-01-11) Starting job:  14 
-(15:37:46 2024-01-11) Done with job: 59 
-(15:37:46 2024-01-11) Storing results for job 59 in the file 500_50_7_0_0_59_59.rds 
-(15:37:46 2024-01-11) Done with job: 14 
-(15:37:46 2024-01-11) Storing results for job 14 in the file 500_50_2_0_0_14_14.rds 
-(15:37:47 2024-01-11) Starting job:  60 
-(15:37:47 2024-01-11) Starting job:  15 
-(15:37:47 2024-01-11) Done with job: 60 
-(15:37:47 2024-01-11) Storing results for job 60 in the file 1000_50_7_0_0_60_60.rds 
-(15:37:47 2024-01-11) Done with job: 15 
-(15:37:47 2024-01-11) Storing results for job 15 in the file 1000_50_2_0_0_15_15.rds 
-(15:37:47 2024-01-11) Starting job:  61 
-(15:37:47 2024-01-11) Done with job: 61 
-(15:37:47 2024-01-11) Storing results for job 61 in the file 100_100_7_0_0_61_61.rds 
-(15:37:47 2024-01-11) Starting job:  16 
-(15:37:47 2024-01-11) Done with job: 16 
-(15:37:47 2024-01-11) Storing results for job 16 in the file 100_100_2_0_0_16_16.rds 
-(15:37:47 2024-01-11) Starting job:  62 
-(15:37:47 2024-01-11) Starting job:  17 
-(15:37:47 2024-01-11) Done with job: 62 
-(15:37:47 2024-01-11) Storing results for job 62 in the file 500_100_7_0_0_62_62.rds 
-(15:37:47 2024-01-11) Done with job: 17 
-(15:37:47 2024-01-11) Storing results for job 17 in the file 500_100_2_0_0_17_17.rds 
-(15:37:47 2024-01-11) Starting job:  63 
-(15:37:47 2024-01-11) Starting job:  18 
-(15:37:47 2024-01-11) Done with job: 63 
-(15:37:47 2024-01-11) Storing results for job 63 in the file 1000_100_7_0_0_63_63.rds 
-(15:37:47 2024-01-11) Done with job: 18 
-(15:37:47 2024-01-11) Storing results for job 18 in the file 1000_100_2_0_0_18_18.rds 
-(15:37:47 2024-01-11) Starting job:  19 
-(15:37:47 2024-01-11) Starting job:  64 
-(15:37:47 2024-01-11) Done with job: 19 
-(15:37:47 2024-01-11) Storing results for job 19 in the file 100_10_3_0_0_19_19.rds 
-(15:37:47 2024-01-11) Done with job: 64 
-(15:37:47 2024-01-11) Storing results for job 64 in the file 100_10_8_0_0_64_64.rds 
-(15:37:47 2024-01-11) Starting job:  20 
-(15:37:47 2024-01-11) Starting job:  65 
-(15:37:47 2024-01-11) Done with job: 20 
-(15:37:47 2024-01-11) Storing results for job 20 in the file 500_10_3_0_0_20_20.rds 
-(15:37:47 2024-01-11) Done with job: 65 
-(15:37:47 2024-01-11) Storing results for job 65 in the file 500_10_8_0_0_65_65.rds 
-(15:37:47 2024-01-11) Starting job:  21 
-(15:37:47 2024-01-11) Starting job:  66 
-(15:37:47 2024-01-11) Done with job: 21 
-(15:37:47 2024-01-11) Storing results for job 21 in the file 1000_10_3_0_0_21_21.rds 
-(15:37:47 2024-01-11) Done with job: 66 
-(15:37:47 2024-01-11) Storing results for job 66 in the file 1000_10_8_0_0_66_66.rds 
-(15:37:47 2024-01-11) Starting job:  22 
-(15:37:47 2024-01-11) Starting job:  67 
-(15:37:47 2024-01-11) Done with job: 22 
-(15:37:47 2024-01-11) Storing results for job 22 in the file 100_50_3_0_0_22_22.rds 
-(15:37:47 2024-01-11) Done with job: 67 
-(15:37:47 2024-01-11) Storing results for job 67 in the file 100_50_8_0_0_67_67.rds 
-(15:37:48 2024-01-11) Starting job:  68 
-(15:37:48 2024-01-11) Starting job:  23 
-(15:37:48 2024-01-11) Done with job: 68 
-(15:37:48 2024-01-11) Storing results for job 68 in the file 500_50_8_0_0_68_68.rds 
-(15:37:48 2024-01-11) Done with job: 23 
-(15:37:48 2024-01-11) Storing results for job 23 in the file 500_50_3_0_0_23_23.rds 
-(15:37:48 2024-01-11) Starting job:  69 
-(15:37:48 2024-01-11) Starting job:  24 
-(15:37:48 2024-01-11) Done with job: 24 
-(15:37:48 2024-01-11) Storing results for job 24 in the file 1000_50_3_0_0_24_24.rds 
-(15:37:48 2024-01-11) Done with job: 69 
-(15:37:48 2024-01-11) Storing results for job 69 in the file 1000_50_8_0_0_69_69.rds 
-(15:37:48 2024-01-11) Starting job:  70 
-(15:37:48 2024-01-11) Starting job:  25 
-(15:37:48 2024-01-11) Done with job: 70 
-(15:37:48 2024-01-11) Storing results for job 70 in the file 100_100_8_0_0_70_70.rds 
-(15:37:48 2024-01-11) Done with job: 25 
-(15:37:48 2024-01-11) Storing results for job 25 in the file 100_100_3_0_0_25_25.rds 
-(15:37:48 2024-01-11) Starting job:  71 
-(15:37:48 2024-01-11) Starting job:  26 
-(15:37:48 2024-01-11) Done with job: 26 
-(15:37:48 2024-01-11) Storing results for job 26 in the file 500_100_3_0_0_26_26.rds 
-(15:37:48 2024-01-11) Done with job: 71 
-(15:37:48 2024-01-11) Storing results for job 71 in the file 500_100_8_0_0_71_71.rds 
-(15:37:48 2024-01-11) Starting job:  27 
-(15:37:48 2024-01-11) Starting job:  72 
-(15:37:48 2024-01-11) Done with job: 72 
-(15:37:48 2024-01-11) Storing results for job 72 in the file 1000_100_8_0_0_72_72.rds 
-(15:37:48 2024-01-11) Done with job: 27 
-(15:37:48 2024-01-11) Storing results for job 27 in the file 1000_100_3_0_0_27_27.rds 
-(15:37:48 2024-01-11) Starting job:  73 
-(15:37:48 2024-01-11) Done with job: 73 
-(15:37:48 2024-01-11) Storing results for job 73 in the file 100_10_9_0_0_73_73.rds 
-(15:37:48 2024-01-11) Starting job:  28 
-(15:37:48 2024-01-11) Done with job: 28 
-(15:37:48 2024-01-11) Storing results for job 28 in the file 100_10_4_0_0_28_28.rds 
-(15:37:48 2024-01-11) Starting job:  29(15:37:48 2024-01-11)  Starting job:  74
+(15:47:20 2024-01-11) Simulation folder for ranger-performance created successfully 
+(15:47:22 2024-01-11) Start or restart of the simulation at 2024-01-11 15:47:22 
+(15:47:22 2024-01-11) Checked the progress. Currently 0 out of 90 (0%) runs are done 
+(15:47:22 2024-01-11) Starting job:  1 
+(15:47:22 2024-01-11) Starting job:  46 
+(15:47:22 2024-01-11) Done with job: 1 
+(15:47:22 2024-01-11) Storing results for job 1 in the file 100_10_1_0_0_1_1.rds 
+(15:47:22 2024-01-11) Done with job: 46 
+(15:47:22 2024-01-11) Storing results for job 46 in the file 100_10_6_0_0_46_46.rds 
+(15:47:22 2024-01-11) Starting job:  47 
+(15:47:22 2024-01-11) ERROR: The simulation run for the file 500_10_6_0_0_47_47.rds returned an error and did not finish
  
-(15:37:48 2024-01-11) Done with job: 29 
-(15:37:48 2024-01-11) Storing results for job 29 in the file 500_10_4_0_0_29_29.rds 
-(15:37:48 2024-01-11) Done with job: 74 
-(15:37:48 2024-01-11) Storing results for job 74 in the file 500_10_9_0_0_74_74.rds 
-(15:37:48 2024-01-11) Starting job:  75 
-(15:37:48 2024-01-11) Starting job:  30 
-(15:37:48 2024-01-11) Done with job: 30 
-(15:37:48 2024-01-11) Storing results for job 30 in the file 1000_10_4_0_0_30_30.rds 
-(15:37:48 2024-01-11) Done with job: 75 
-(15:37:48 2024-01-11) Storing results for job 75 in the file 1000_10_9_0_0_75_75.rds 
-(15:37:49 2024-01-11) Starting job:  31 
-(15:37:49 2024-01-11) Starting job:  76 
-(15:37:49 2024-01-11) Done with job: 31 
-(15:37:49 2024-01-11) Storing results for job 31 in the file 100_50_4_0_0_31_31.rds 
-(15:37:49 2024-01-11) Done with job: 76 
-(15:37:49 2024-01-11) Storing results for job 76 in the file 100_50_9_0_0_76_76.rds 
-(15:37:49 2024-01-11) Starting job:  77 (15:37:49 2024-01-11) Starting job:  32 
-
-(15:37:49 2024-01-11) Done with job: 77 
-(15:37:49 2024-01-11) Storing results for job 77 in the file 500_50_9_0_0_77_77.rds 
-(15:37:49 2024-01-11) Done with job: 32 
-(15:37:49 2024-01-11) Storing results for job 32 in the file 500_50_4_0_0_32_32.rds 
-(15:37:49 2024-01-11) Starting job:  78 
-(15:37:49 2024-01-11) Starting job:  33 
-(15:37:49 2024-01-11) Done with job: 78 
-(15:37:49 2024-01-11) Storing results for job 78 in the file 1000_50_9_0_0_78_78.rds 
-(15:37:49 2024-01-11) Done with job: 33 
-(15:37:49 2024-01-11) Storing results for job 33 in the file 1000_50_4_0_0_33_33.rds 
-(15:37:49 2024-01-11) Starting job:  34 
-(15:37:49 2024-01-11) Starting job:  79 
-(15:37:49 2024-01-11) Done with job: 34 
-(15:37:49 2024-01-11) Storing results for job 34 in the file 100_100_4_0_0_34_34.rds 
-(15:37:49 2024-01-11) Done with job: 79 
-(15:37:49 2024-01-11) Storing results for job 79 in the file 100_100_9_0_0_79_79.rds 
-(15:37:49 2024-01-11) Starting job:  80 
-(15:37:49 2024-01-11) Starting job:  35 
-(15:37:49 2024-01-11) Done with job: 80 
-(15:37:49 2024-01-11) Storing results for job 80 in the file 500_100_9_0_0_80_80.rds 
-(15:37:49 2024-01-11) Done with job: 35 
-(15:37:49 2024-01-11) Storing results for job 35 in the file 500_100_4_0_0_35_35.rds 
-(15:37:49 2024-01-11) Starting job:  36 
-(15:37:49 2024-01-11) Starting job:  81 
-(15:37:49 2024-01-11) Done with job: 36 
-(15:37:49 2024-01-11) Storing results for job 36 in the file 1000_100_4_0_0_36_36.rds 
-(15:37:49 2024-01-11) Done with job: 81 
-(15:37:49 2024-01-11) Storing results for job 81 in the file 1000_100_9_0_0_81_81.rds 
-(15:37:49 2024-01-11) Starting job:  37 
-(15:37:49 2024-01-11) Done with job: 37 
-(15:37:49 2024-01-11) Storing results for job 37 in the file 100_10_5_0_0_37_37.rds 
-(15:37:49 2024-01-11) Starting job:  82 
-(15:37:49 2024-01-11) Done with job: 82 
-(15:37:49 2024-01-11) Storing results for job 82 in the file 100_10_10_0_0_82_82.rds 
-(15:37:49 2024-01-11) Starting job:  83 
-(15:37:49 2024-01-11) Starting job:  38 
-(15:37:49 2024-01-11) Done with job: 38 (15:37:49 2024-01-11) Done with job: 83 
-
-(15:37:49 2024-01-11) Storing results for job 83 in the file 500_10_10_0_0_83_83.rds(15:37:49 2024-01-11)  Storing results for job 38 in the file 500_10_5_0_0_38_38.rds
+(15:47:22 2024-01-11) Error in error("hell yeah!"): could not find function "error"
  
-(15:37:50 2024-01-11) Starting job:  39 
-(15:37:50 2024-01-11) Starting job:  84 
-(15:37:50 2024-01-11) Done with job: 39 
-(15:37:50 2024-01-11) Storing results for job 39 in the file 1000_10_5_0_0_39_39.rds 
-(15:37:50 2024-01-11) Done with job: 84 
-(15:37:50 2024-01-11) Storing results for job 84 in the file 1000_10_10_0_0_84_84.rds 
-(15:37:50 2024-01-11) Starting job:  40 
-(15:37:50 2024-01-11) Starting job:  85 
-(15:37:50 2024-01-11) Done with job: 40 
-(15:37:50 2024-01-11) Storing results for job 40 in the file 100_50_5_0_0_40_40.rds 
-(15:37:50 2024-01-11) Done with job: 85 
-(15:37:50 2024-01-11) Storing results for job 85 in the file 100_50_10_0_0_85_85.rds 
-(15:37:50 2024-01-11) Starting job:  41 
-(15:37:50 2024-01-11) Starting job:  86 
-(15:37:50 2024-01-11) Done with job: 41 
-(15:37:50 2024-01-11) Storing results for job 41 in the file 500_50_5_0_0_41_41.rds 
-(15:37:50 2024-01-11) Done with job: 86 
-(15:37:50 2024-01-11) Storing results for job 86 in the file 500_50_10_0_0_86_86.rds 
-(15:37:50 2024-01-11) Starting job:  42 
-(15:37:50 2024-01-11) Starting job:  87 
-(15:37:50 2024-01-11) Done with job: 42 
-(15:37:50 2024-01-11) Storing results for job 42 in the file 1000_50_5_0_0_42_42.rds 
-(15:37:50 2024-01-11) Done with job: 87 
-(15:37:50 2024-01-11) Storing results for job 87 in the file 1000_50_10_0_0_87_87.rds 
-(15:37:50 2024-01-11) Starting job:  88 
-(15:37:50 2024-01-11) Starting job:  43 
-(15:37:50 2024-01-11) Done with job: 88 
-(15:37:50 2024-01-11) Storing results for job 88 in the file 100_100_10_0_0_88_88.rds 
-(15:37:50 2024-01-11) Done with job: 43 
-(15:37:50 2024-01-11) Storing results for job 43 in the file 100_100_5_0_0_43_43.rds 
-(15:37:50 2024-01-11) Starting job:  44 
-(15:37:50 2024-01-11) Starting job:  89 
-(15:37:50 2024-01-11) Done with job: 44 
-(15:37:50 2024-01-11) Storing results for job 44 in the file 500_100_5_0_0_44_44.rds 
-(15:37:50 2024-01-11) Done with job: 89 
-(15:37:50 2024-01-11) Storing results for job 89 in the file 500_100_10_0_0_89_89.rds 
-(15:37:50 2024-01-11) Starting job:  45 
-(15:37:50 2024-01-11) Starting job:  90 
-(15:37:50 2024-01-11) Done with job: 45 
-(15:37:50 2024-01-11) Storing results for job 45 in the file 1000_100_5_0_0_45_45.rds 
-(15:37:50 2024-01-11) Done with job: 90 
-(15:37:50 2024-01-11) Storing results for job 90 in the file 1000_100_10_0_0_90_90.rds 
-(15:37:51 2024-01-11) SIMULATION STUDY DONE. All results are in the simulations/results/ folder 
-(15:37:51 2024-01-11) Processing results... 
-(15:37:51 2024-01-11) Processing results of run 1 
-(15:37:51 2024-01-11) Processing results of run 46 
-(15:37:51 2024-01-11) Processing results of run 2 
-(15:37:51 2024-01-11) Processing results of run 47 
-(15:37:51 2024-01-11) Processing results of run 3 
-(15:37:51 2024-01-11) Processing results of run 48 
-(15:37:51 2024-01-11) Processing results of run 4 
-(15:37:51 2024-01-11) Processing results of run 49 
-(15:37:51 2024-01-11) Processing results of run 5 
-(15:37:51 2024-01-11) Processing results of run 50 
-(15:37:51 2024-01-11) Processing results of run 6 
-(15:37:51 2024-01-11) Processing results of run 51 
-(15:37:51 2024-01-11) Processing results of run 7 
-(15:37:51 2024-01-11) Processing results of run 8 
-(15:37:51 2024-01-11) Processing results of run 52 
-(15:37:51 2024-01-11) Processing results of run 53 
-(15:37:51 2024-01-11) Processing results of run 9 
-(15:37:51 2024-01-11) Processing results of run 54 
-(15:37:51 2024-01-11) Processing results of run 10 
-(15:37:51 2024-01-11) Processing results of run 11 
-(15:37:51 2024-01-11) Processing results of run 55 
-(15:37:51 2024-01-11) Processing results of run 56 
-(15:37:51 2024-01-11) Processing results of run 12 
-(15:37:51 2024-01-11) Processing results of run 57 
-(15:37:51 2024-01-11) Processing results of run 13 
-(15:37:51 2024-01-11) Processing results of run 14 
-(15:37:51 2024-01-11) Processing results of run 58 
-(15:37:51 2024-01-11) Processing results of run 59 
-(15:37:51 2024-01-11) Processing results of run 15 
-(15:37:51 2024-01-11) Processing results of run 60 
-(15:37:51 2024-01-11) Processing results of run 16 
-(15:37:51 2024-01-11) Processing results of run 17 
-(15:37:51 2024-01-11) Processing results of run 61 
-(15:37:51 2024-01-11) Processing results of run 18 
-(15:37:51 2024-01-11) Processing results of run 62 
-(15:37:51 2024-01-11) Processing results of run 63 
-(15:37:51 2024-01-11) Processing results of run 19 
-(15:37:51 2024-01-11) Processing results of run 20 
-(15:37:51 2024-01-11) Processing results of run 21 
-(15:37:51 2024-01-11) Processing results of run 64 
-(15:37:51 2024-01-11) Processing results of run 65 
-(15:37:51 2024-01-11) Processing results of run 66 
-(15:37:51 2024-01-11) Processing results of run 22 
-(15:37:51 2024-01-11) Processing results of run 23 
-(15:37:51 2024-01-11) Processing results of run 24 
-(15:37:51 2024-01-11) Processing results of run 67 
-(15:37:51 2024-01-11) Processing results of run 68 
-(15:37:51 2024-01-11) Processing results of run 69 
-(15:37:51 2024-01-11) Processing results of run 25 
-(15:37:51 2024-01-11) Processing results of run 26 
-(15:37:51 2024-01-11) Processing results of run 27 
-(15:37:51 2024-01-11) Processing results of run 70 
-(15:37:51 2024-01-11) Processing results of run 71 
-(15:37:51 2024-01-11) Processing results of run 28 
-(15:37:51 2024-01-11) Processing results of run 72 
-(15:37:51 2024-01-11) Processing results of run 29 
-(15:37:51 2024-01-11) Processing results of run 30 
-(15:37:51 2024-01-11) Processing results of run 73 
-(15:37:51 2024-01-11) Processing results of run 74 
-(15:37:51 2024-01-11) Processing results of run 31 
-(15:37:51 2024-01-11) Processing results of run 75 
-(15:37:51 2024-01-11) Processing results of run 32 
-(15:37:51 2024-01-11) Processing results of run 33 
-(15:37:51 2024-01-11) Processing results of run 76 
-(15:37:51 2024-01-11) Processing results of run 77 
-(15:37:51 2024-01-11) Processing results of run 78 
-(15:37:51 2024-01-11) Processing results of run 34 
-(15:37:51 2024-01-11) Processing results of run 35 
-(15:37:51 2024-01-11) Processing results of run 79 
-(15:37:51 2024-01-11) Processing results of run 80 
-(15:37:51 2024-01-11) Processing results of run 36 
-(15:37:51 2024-01-11) Processing results of run 37 
-(15:37:51 2024-01-11) Processing results of run 38 
-(15:37:51 2024-01-11) Processing results of run 81 
-(15:37:51 2024-01-11) Processing results of run 39 
-(15:37:51 2024-01-11) Processing results of run 40 
-(15:37:51 2024-01-11) Processing results of run 82 
-(15:37:51 2024-01-11) Processing results of run 41 
-(15:37:51 2024-01-11) Processing results of run 83 
-(15:37:51 2024-01-11) Processing results of run 42 
-(15:37:51 2024-01-11) Processing results of run 84 
-(15:37:51 2024-01-11) Processing results of run 43 
-(15:37:51 2024-01-11) Processing results of run 85 
-(15:37:51 2024-01-11) Processing results of run 44 
-(15:37:51 2024-01-11) Processing results of run 86 
-(15:37:51 2024-01-11) Processing results of run 45 
-(15:37:51 2024-01-11) Processing results of run 87 
-(15:37:51 2024-01-11) Processing results of run 88 
-(15:37:51 2024-01-11) Processing results of run 89 
-(15:37:51 2024-01-11) Processing results of run 90 
-(15:37:54 2024-01-11) DONE Processing results 
-(15:37:54 2024-01-11) Results are stored in simulations/processed-results.rds 
-(15:37:54 2024-01-11) Parallel cluster stopped successfully. 
+(15:47:22 2024-01-11) Starting job:  48 
+(15:47:22 2024-01-11) Starting job:  2 
+(15:47:22 2024-01-11) Done with job: 2 
+(15:47:22 2024-01-11) Storing results for job 2 in the file 500_10_1_0_0_2_2.rds 
+(15:47:22 2024-01-11) Done with job: 48 
+(15:47:22 2024-01-11) Storing results for job 48 in the file 1000_10_6_0_0_48_48.rds 
+(15:47:22 2024-01-11) Starting job:  3 
+(15:47:22 2024-01-11) Done with job: 3 
+(15:47:22 2024-01-11) Storing results for job 3 in the file 1000_10_1_0_0_3_3.rds 
+(15:47:22 2024-01-11) Starting job:  49 
+(15:47:22 2024-01-11) Done with job: 49 
+(15:47:22 2024-01-11) Storing results for job 49 in the file 100_50_6_0_0_49_49.rds 
+(15:47:22 2024-01-11) Starting job:  50 
+(15:47:22 2024-01-11) Done with job: 50 
+(15:47:22 2024-01-11) Storing results for job 50 in the file 500_50_6_0_0_50_50.rds 
+(15:47:22 2024-01-11) Starting job:  4 
+(15:47:22 2024-01-11) Done with job: 4 
+(15:47:22 2024-01-11) Storing results for job 4 in the file 100_50_1_0_0_4_4.rds 
+(15:47:22 2024-01-11) Starting job:  5 
+(15:47:22 2024-01-11) Starting job:  51 
+(15:47:22 2024-01-11) Done with job: 5 
+(15:47:22 2024-01-11) Storing results for job 5 in the file 500_50_1_0_0_5_5.rds 
+(15:47:22 2024-01-11) Done with job: 51 
+(15:47:22 2024-01-11) Storing results for job 51 in the file 1000_50_6_0_0_51_51.rds 
+(15:47:22 2024-01-11) Starting job:  6 
+(15:47:22 2024-01-11) Done with job: 6 
+(15:47:22 2024-01-11) Storing results for job 6 in the file 1000_50_1_0_0_6_6.rds 
+(15:47:22 2024-01-11) Starting job:  52 
+(15:47:22 2024-01-11) Done with job: 52 
+(15:47:22 2024-01-11) Storing results for job 52 in the file 100_100_6_0_0_52_52.rds 
+(15:47:22 2024-01-11) Starting job:  53 
+(15:47:22 2024-01-11) Starting job:  7 
+(15:47:22 2024-01-11) ERROR: The simulation run for the file 100_100_1_0_0_7_7.rds returned an error and did not finish
+ 
+(15:47:22 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:22 2024-01-11) Starting job:  8 
+(15:47:22 2024-01-11) Done with job: 53 
+(15:47:22 2024-01-11) Storing results for job 53 in the file 500_100_6_0_0_53_53.rds 
+(15:47:23 2024-01-11) Done with job: 8 
+(15:47:23 2024-01-11) Storing results for job 8 in the file 500_100_1_0_0_8_8.rds 
+(15:47:23 2024-01-11) Starting job:  54 
+(15:47:23 2024-01-11) ERROR: The simulation run for the file 1000_100_6_0_0_54_54.rds returned an error and did not finish
+ 
+(15:47:23 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:23 2024-01-11) Starting job:  55 
+(15:47:23 2024-01-11) Done with job: 55 
+(15:47:23 2024-01-11) Storing results for job 55 in the file 100_10_7_0_0_55_55.rds 
+(15:47:23 2024-01-11) Starting job:  9 
+(15:47:23 2024-01-11) Done with job: 9 
+(15:47:23 2024-01-11) Storing results for job 9 in the file 1000_100_1_0_0_9_9.rds 
+(15:47:23 2024-01-11) Starting job:  56 
+(15:47:23 2024-01-11) Done with job: 56 
+(15:47:23 2024-01-11) Storing results for job 56 in the file 500_10_7_0_0_56_56.rds 
+(15:47:23 2024-01-11) Starting job:  57 
+(15:47:23 2024-01-11) Done with job: 57 
+(15:47:23 2024-01-11) Storing results for job 57 in the file 1000_10_7_0_0_57_57.rds 
+(15:47:23 2024-01-11) Starting job:  10 
+(15:47:23 2024-01-11) Done with job: 10 
+(15:47:23 2024-01-11) Storing results for job 10 in the file 100_10_2_0_0_10_10.rds 
+(15:47:23 2024-01-11) Starting job:  11 
+(15:47:23 2024-01-11) Done with job: 11 
+(15:47:23 2024-01-11) Storing results for job 11 in the file 500_10_2_0_0_11_11.rds 
+(15:47:23 2024-01-11) Starting job:  58 
+(15:47:23 2024-01-11) Done with job: 58 
+(15:47:23 2024-01-11) Storing results for job 58 in the file 100_50_7_0_0_58_58.rds 
+(15:47:23 2024-01-11) Starting job:  12 
+(15:47:23 2024-01-11) Done with job: 12 
+(15:47:23 2024-01-11) Storing results for job 12 in the file 1000_10_2_0_0_12_12.rds 
+(15:47:23 2024-01-11) Starting job:  59 
+(15:47:23 2024-01-11) Done with job: 59 
+(15:47:23 2024-01-11) Storing results for job 59 in the file 500_50_7_0_0_59_59.rds 
+(15:47:23 2024-01-11) Starting job:  60 
+(15:47:23 2024-01-11) Starting job:  13 
+(15:47:23 2024-01-11) Done with job: 13 
+(15:47:23 2024-01-11) Storing results for job 13 in the file 100_50_2_0_0_13_13.rds 
+(15:47:23 2024-01-11) Done with job: 60 
+(15:47:23 2024-01-11) Storing results for job 60 in the file 1000_50_7_0_0_60_60.rds 
+(15:47:23 2024-01-11) Starting job:  14 
+(15:47:23 2024-01-11) Done with job: 14 
+(15:47:23 2024-01-11) Storing results for job 14 in the file 500_50_2_0_0_14_14.rds 
+(15:47:23 2024-01-11) Starting job:  61 
+(15:47:23 2024-01-11) Done with job: 61 
+(15:47:23 2024-01-11) Storing results for job 61 in the file 100_100_7_0_0_61_61.rds 
+(15:47:23 2024-01-11) Starting job:  15 
+(15:47:23 2024-01-11) Done with job: 15 
+(15:47:23 2024-01-11) Storing results for job 15 in the file 1000_50_2_0_0_15_15.rds 
+(15:47:23 2024-01-11) Starting job:  62 
+(15:47:23 2024-01-11) Done with job: 62 
+(15:47:23 2024-01-11) Storing results for job 62 in the file 500_100_7_0_0_62_62.rds 
+(15:47:24 2024-01-11) Starting job:  16 
+(15:47:24 2024-01-11) Starting job:  63 
+(15:47:24 2024-01-11) ERROR: The simulation run for the file 1000_100_7_0_0_63_63.rds returned an error and did not finish
+ 
+(15:47:24 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:24 2024-01-11) Starting job:  64 
+(15:47:24 2024-01-11) Done with job: 16 
+(15:47:24 2024-01-11) Storing results for job 16 in the file 100_100_2_0_0_16_16.rds 
+(15:47:24 2024-01-11) Done with job: 64 
+(15:47:24 2024-01-11) Storing results for job 64 in the file 100_10_8_0_0_64_64.rds 
+(15:47:24 2024-01-11) Starting job:  65 
+(15:47:24 2024-01-11) Starting job:  17 
+(15:47:24 2024-01-11) Done with job: 65 
+(15:47:24 2024-01-11) Storing results for job 65 in the file 500_10_8_0_0_65_65.rds 
+(15:47:24 2024-01-11) Done with job: 17 
+(15:47:24 2024-01-11) Storing results for job 17 in the file 500_100_2_0_0_17_17.rds 
+(15:47:24 2024-01-11) Starting job:  66 
+(15:47:24 2024-01-11) ERROR: The simulation run for the file 1000_10_8_0_0_66_66.rds returned an error and did not finish
+ 
+(15:47:24 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:24 2024-01-11) Starting job:  67 
+(15:47:24 2024-01-11) ERROR: The simulation run for the file 100_50_8_0_0_67_67.rds returned an error and did not finish
+ 
+(15:47:24 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:24 2024-01-11) Starting job:  68 
+(15:47:24 2024-01-11) ERROR: The simulation run for the file 500_50_8_0_0_68_68.rds returned an error and did not finish
+ 
+(15:47:24 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:24 2024-01-11) Starting job:  69 
+(15:47:24 2024-01-11) Starting job:  18 
+(15:47:24 2024-01-11) ERROR: The simulation run for the file 1000_100_2_0_0_18_18.rds returned an error and did not finish
+ 
+(15:47:24 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:24 2024-01-11) Starting job:  19 
+(15:47:24 2024-01-11) Done with job: 19 
+(15:47:24 2024-01-11) Storing results for job 19 in the file 100_10_3_0_0_19_19.rds 
+(15:47:24 2024-01-11) Done with job: 69 
+(15:47:24 2024-01-11) Storing results for job 69 in the file 1000_50_8_0_0_69_69.rds 
+(15:47:24 2024-01-11) Starting job:  20 
+(15:47:24 2024-01-11) ERROR: The simulation run for the file 500_10_3_0_0_20_20.rds returned an error and did not finish
+ 
+(15:47:24 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:24 2024-01-11) Starting job:  21 
+(15:47:24 2024-01-11) Done with job: 21 
+(15:47:24 2024-01-11) Storing results for job 21 in the file 1000_10_3_0_0_21_21.rds 
+(15:47:24 2024-01-11) Starting job:  70 
+(15:47:24 2024-01-11) Done with job: 70 
+(15:47:24 2024-01-11) Storing results for job 70 in the file 100_100_8_0_0_70_70.rds 
+(15:47:24 2024-01-11) Starting job:  71 
+(15:47:24 2024-01-11) Starting job:  22 
+(15:47:24 2024-01-11) Done with job: 22 
+(15:47:24 2024-01-11) Storing results for job 22 in the file 100_50_3_0_0_22_22.rds 
+(15:47:24 2024-01-11) Done with job: 71 
+(15:47:24 2024-01-11) Storing results for job 71 in the file 500_100_8_0_0_71_71.rds 
+(15:47:24 2024-01-11) Starting job:  23 
+(15:47:24 2024-01-11) Done with job: 23 
+(15:47:24 2024-01-11) Storing results for job 23 in the file 500_50_3_0_0_23_23.rds 
+(15:47:24 2024-01-11) Starting job:  72 
+(15:47:24 2024-01-11) ERROR: The simulation run for the file 1000_100_8_0_0_72_72.rds returned an error and did not finish
+ 
+(15:47:24 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:24 2024-01-11) Starting job:  73 
+(15:47:24 2024-01-11) Done with job: 73 
+(15:47:24 2024-01-11) Storing results for job 73 in the file 100_10_9_0_0_73_73.rds 
+(15:47:24 2024-01-11) Starting job:  74 
+(15:47:24 2024-01-11) Done with job: 74 
+(15:47:24 2024-01-11) Storing results for job 74 in the file 500_10_9_0_0_74_74.rds 
+(15:47:24 2024-01-11) Starting job:  24 
+(15:47:24 2024-01-11) Done with job: 24 
+(15:47:24 2024-01-11) Storing results for job 24 in the file 1000_50_3_0_0_24_24.rds 
+(15:47:24 2024-01-11) Starting job:  75 
+(15:47:24 2024-01-11) Done with job: 75 
+(15:47:24 2024-01-11) Storing results for job 75 in the file 1000_10_9_0_0_75_75.rds 
+(15:47:24 2024-01-11) Starting job:  25 
+(15:47:24 2024-01-11) Done with job: 25 
+(15:47:24 2024-01-11) Storing results for job 25 in the file 100_100_3_0_0_25_25.rds 
+(15:47:24 2024-01-11) Starting job:  76 
+(15:47:24 2024-01-11) Done with job: 76 
+(15:47:24 2024-01-11) Storing results for job 76 in the file 100_50_9_0_0_76_76.rds 
+(15:47:24 2024-01-11) Starting job:  26 
+(15:47:24 2024-01-11) Done with job: 26 
+(15:47:24 2024-01-11) Storing results for job 26 in the file 500_100_3_0_0_26_26.rds 
+(15:47:25 2024-01-11) Starting job:  77 
+(15:47:25 2024-01-11) Done with job: 77 
+(15:47:25 2024-01-11) Storing results for job 77 in the file 500_50_9_0_0_77_77.rds 
+(15:47:25 2024-01-11) Starting job:  27 
+(15:47:25 2024-01-11) ERROR: The simulation run for the file 1000_100_3_0_0_27_27.rds returned an error and did not finish
+ 
+(15:47:25 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:25 2024-01-11) Starting job:  28 
+(15:47:25 2024-01-11) Done with job: 28 
+(15:47:25 2024-01-11) Storing results for job 28 in the file 100_10_4_0_0_28_28.rds 
+(15:47:25 2024-01-11) Starting job:  78 
+(15:47:25 2024-01-11) Starting job:  29 
+(15:47:25 2024-01-11) Done with job: 29 
+(15:47:25 2024-01-11) Storing results for job 29 in the file 500_10_4_0_0_29_29.rds 
+(15:47:25 2024-01-11) Done with job: 78 
+(15:47:25 2024-01-11) Storing results for job 78 in the file 1000_50_9_0_0_78_78.rds 
+(15:47:25 2024-01-11) Starting job:  30 
+(15:47:25 2024-01-11) Done with job: 30 
+(15:47:25 2024-01-11) Storing results for job 30 in the file 1000_10_4_0_0_30_30.rds 
+(15:47:25 2024-01-11) Starting job:  79 
+(15:47:25 2024-01-11) ERROR: The simulation run for the file 100_100_9_0_0_79_79.rds returned an error and did not finish
+ 
+(15:47:25 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:25 2024-01-11) Starting job:  80 
+(15:47:25 2024-01-11) Done with job: 80 
+(15:47:25 2024-01-11) Storing results for job 80 in the file 500_100_9_0_0_80_80.rds 
+(15:47:25 2024-01-11) Starting job:  31 
+(15:47:25 2024-01-11) Done with job: 31 
+(15:47:25 2024-01-11) Storing results for job 31 in the file 100_50_4_0_0_31_31.rds 
+(15:47:25 2024-01-11) Starting job:  81 
+(15:47:25 2024-01-11) Starting job:  32 
+(15:47:25 2024-01-11) Done with job: 81 
+(15:47:25 2024-01-11) Storing results for job 81 in the file 1000_100_9_0_0_81_81.rds 
+(15:47:25 2024-01-11) Done with job: 32 
+(15:47:25 2024-01-11) Storing results for job 32 in the file 500_50_4_0_0_32_32.rds 
+(15:47:25 2024-01-11) Starting job:  33 
+(15:47:25 2024-01-11) Starting job:  82 
+(15:47:25 2024-01-11) Done with job: 82 
+(15:47:25 2024-01-11) Storing results for job 82 in the file 100_10_10_0_0_82_82.rds 
+(15:47:25 2024-01-11) Done with job: 33 
+(15:47:25 2024-01-11) Storing results for job 33 in the file 1000_50_4_0_0_33_33.rds 
+(15:47:25 2024-01-11) Starting job:  83 
+(15:47:25 2024-01-11) Done with job: 83 
+(15:47:25 2024-01-11) Storing results for job 83 in the file 500_10_10_0_0_83_83.rds 
+(15:47:25 2024-01-11) Starting job:  34 
+(15:47:25 2024-01-11) Done with job: 34 
+(15:47:25 2024-01-11) Storing results for job 34 in the file 100_100_4_0_0_34_34.rds 
+(15:47:25 2024-01-11) Starting job:  84 
+(15:47:25 2024-01-11) Done with job: 84 
+(15:47:25 2024-01-11) Storing results for job 84 in the file 1000_10_10_0_0_84_84.rds 
+(15:47:25 2024-01-11) Starting job:  35 
+(15:47:25 2024-01-11) ERROR: The simulation run for the file 500_100_4_0_0_35_35.rds returned an error and did not finish
+ 
+(15:47:25 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:25 2024-01-11) Starting job:  36 
+(15:47:25 2024-01-11) Done with job: 36 
+(15:47:25 2024-01-11) Storing results for job 36 in the file 1000_100_4_0_0_36_36.rds 
+(15:47:25 2024-01-11) Starting job:  85 
+(15:47:25 2024-01-11) Done with job: 85 
+(15:47:25 2024-01-11) Storing results for job 85 in the file 100_50_10_0_0_85_85.rds 
+(15:47:26 2024-01-11) Starting job:  37 
+(15:47:26 2024-01-11) Done with job: 37 
+(15:47:26 2024-01-11) Storing results for job 37 in the file 100_10_5_0_0_37_37.rds 
+(15:47:26 2024-01-11) Starting job:  86 
+(15:47:26 2024-01-11) Done with job: 86 
+(15:47:26 2024-01-11) Storing results for job 86 in the file 500_50_10_0_0_86_86.rds 
+(15:47:26 2024-01-11) Starting job:  38 
+(15:47:26 2024-01-11) Done with job: 38 
+(15:47:26 2024-01-11) Storing results for job 38 in the file 500_10_5_0_0_38_38.rds 
+(15:47:26 2024-01-11) Starting job:  87 
+(15:47:26 2024-01-11) Done with job: 87 
+(15:47:26 2024-01-11) Storing results for job 87 in the file 1000_50_10_0_0_87_87.rds 
+(15:47:26 2024-01-11) Starting job:  39 
+(15:47:26 2024-01-11) Done with job: 39 
+(15:47:26 2024-01-11) Storing results for job 39 in the file 1000_10_5_0_0_39_39.rds 
+(15:47:26 2024-01-11) Starting job:  88 
+(15:47:26 2024-01-11) Done with job: 88 
+(15:47:26 2024-01-11) Storing results for job 88 in the file 100_100_10_0_0_88_88.rds 
+(15:47:26 2024-01-11) Starting job:  40 
+(15:47:26 2024-01-11) Done with job: 40 
+(15:47:26 2024-01-11) Storing results for job 40 in the file 100_50_5_0_0_40_40.rds 
+(15:47:26 2024-01-11) Starting job:  89 
+(15:47:26 2024-01-11) Done with job: 89 
+(15:47:26 2024-01-11) Starting job:  41(15:47:26 2024-01-11)  Storing results for job 89 in the file 500_100_10_0_0_89_89.rds
+ 
+(15:47:26 2024-01-11) Done with job: 41 
+(15:47:26 2024-01-11) Storing results for job 41 in the file 500_50_5_0_0_41_41.rds 
+(15:47:26 2024-01-11) Starting job:  90 
+(15:47:26 2024-01-11) Starting job:  42 
+(15:47:26 2024-01-11) ERROR: The simulation run for the file 1000_50_5_0_0_42_42.rds returned an error and did not finish
+ 
+(15:47:26 2024-01-11) Error in error("hell yeah!"): could not find function "error"
+ 
+(15:47:26 2024-01-11) Starting job:  43 
+(15:47:26 2024-01-11) Done with job: 43 
+(15:47:26 2024-01-11) Storing results for job 43 in the file 100_100_5_0_0_43_43.rds 
+(15:47:26 2024-01-11) Done with job: 90 
+(15:47:26 2024-01-11) Storing results for job 90 in the file 1000_100_10_0_0_90_90.rds 
+(15:47:26 2024-01-11) Starting job:  44 
+(15:47:26 2024-01-11) Done with job: 44 
+(15:47:26 2024-01-11) Storing results for job 44 in the file 500_100_5_0_0_44_44.rds 
+(15:47:26 2024-01-11) Starting job:  45 
+(15:47:26 2024-01-11) Done with job: 45 
+(15:47:26 2024-01-11) Storing results for job 45 in the file 1000_100_5_0_0_45_45.rds 
+(15:47:26 2024-01-11) Simulation ran through but did not work for some parameter settings. See the log-file (simulations/log.txt) and look for ERROR 
+(15:47:26 2024-01-11) Processing results... 
+(15:47:26 2024-01-11) Processing results of run 1 
+(15:47:26 2024-01-11) Processing results of run 39 
+(15:47:26 2024-01-11) Processing results of run 2 
+(15:47:26 2024-01-11) Processing results of run 3 
+(15:47:26 2024-01-11) Processing results of run 40 
+(15:47:26 2024-01-11) Processing results of run 41 
+(15:47:26 2024-01-11) Processing results of run 4 
+(15:47:26 2024-01-11) Processing results of run 5 
+(15:47:26 2024-01-11) Processing results of run 42 
+(15:47:26 2024-01-11) Processing results of run 6 
+(15:47:26 2024-01-11) Processing results of run 43 
+(15:47:26 2024-01-11) Processing results of run 44 
+(15:47:26 2024-01-11) Processing results of run 7 
+(15:47:26 2024-01-11) Processing results of run 8 
+(15:47:26 2024-01-11) Processing results of run 45 
+(15:47:26 2024-01-11) Processing results of run 46 
+(15:47:26 2024-01-11) Processing results of run 47 
+(15:47:26 2024-01-11) Processing results of run 9 
+(15:47:26 2024-01-11) Processing results of run 48 
+(15:47:26 2024-01-11) Processing results of run 10 
+(15:47:26 2024-01-11) Processing results of run 49 
+(15:47:26 2024-01-11) Processing results of run 11 
+(15:47:26 2024-01-11) Processing results of run 50 
+(15:47:26 2024-01-11) Processing results of run 12 
+(15:47:26 2024-01-11) Processing results of run 51 
+(15:47:26 2024-01-11) Processing results of run 13 
+(15:47:26 2024-01-11) Processing results of run 14 
+(15:47:26 2024-01-11) Processing results of run 52 
+(15:47:26 2024-01-11) Processing results of run 15 
+(15:47:26 2024-01-11) Processing results of run 53 
+(15:47:26 2024-01-11) Processing results of run 16 
+(15:47:26 2024-01-11) Processing results of run 54 
+(15:47:26 2024-01-11) Processing results of run 17 
+(15:47:26 2024-01-11) (15:47:26 2024-01-11) Processing results of run 18Processing results of run 55  
+
+(15:47:26 2024-01-11) Processing results of run 56 
+(15:47:26 2024-01-11) Processing results of run 57 
+(15:47:26 2024-01-11) Processing results of run 19 
+(15:47:26 2024-01-11) Processing results of run 20 
+(15:47:26 2024-01-11) Processing results of run 21 
+(15:47:26 2024-01-11) Processing results of run 58 
+(15:47:26 2024-01-11) Processing results of run 59 
+(15:47:26 2024-01-11) Processing results of run 60 
+(15:47:26 2024-01-11) Processing results of run 22 
+(15:47:26 2024-01-11) Processing results of run 61 
+(15:47:26 2024-01-11) Processing results of run 23 
+(15:47:27 2024-01-11) Processing results of run 62 
+(15:47:27 2024-01-11) Processing results of run 24 
+(15:47:27 2024-01-11) Processing results of run 25 
+(15:47:27 2024-01-11) Processing results of run 26 
+(15:47:27 2024-01-11) Processing results of run 63 
+(15:47:27 2024-01-11) Processing results of run 64 
+(15:47:27 2024-01-11) Processing results of run 27 
+(15:47:27 2024-01-11) Processing results of run 65 
+(15:47:27 2024-01-11) Processing results of run 28 
+(15:47:27 2024-01-11) Processing results of run 29 
+(15:47:27 2024-01-11) Processing results of run 66 
+(15:47:27 2024-01-11) Processing results of run 67 
+(15:47:27 2024-01-11) Processing results of run 30 
+(15:47:27 2024-01-11) Processing results of run 31 
+(15:47:27 2024-01-11) Processing results of run 68 
+(15:47:27 2024-01-11) Processing results of run 69 
+(15:47:27 2024-01-11) Processing results of run 32 
+(15:47:27 2024-01-11) Processing results of run 33 
+(15:47:27 2024-01-11) Processing results of run 70 
+(15:47:27 2024-01-11) Processing results of run 34 
+(15:47:27 2024-01-11) Processing results of run 71 
+(15:47:27 2024-01-11) Processing results of run 72 
+(15:47:27 2024-01-11) Processing results of run 35 
+(15:47:27 2024-01-11) Processing results of run 73 
+(15:47:27 2024-01-11) Processing results of run 36 
+(15:47:27 2024-01-11) Processing results of run 37 
+(15:47:27 2024-01-11) Processing results of run 38 
+(15:47:27 2024-01-11) Processing results of run 74 
+(15:47:27 2024-01-11) Processing results of run 75 
+(15:47:27 2024-01-11) Processing results of run 76 
+(15:47:29 2024-01-11) DONE Processing results 
+(15:47:29 2024-01-11) Results are stored in simulations/processed-results.rds 
+(15:47:29 2024-01-11) Parallel cluster stopped successfully. 
