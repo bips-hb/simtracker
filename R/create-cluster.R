@@ -6,31 +6,32 @@
 #' @param list_needed_functions_variables List with all the functions and
 #'              variables that are needed by each process (default is an empty list)
 #' @param num_workers The number of workers in the cluster (default is 2).
+#' @param cluster_type The type of the cluster to be created (default is "PSOCK").
 #'
 #' @return A parallel cluster object.
 #'
 #' @examples
 #' \dontrun{
 #' # Example usage:
-#' cluster <- create_and_export_cluster(num_workers = 2)
+#' cluster <- create_and_export_cluster(num_workers = 2, cluster_type = "PSOCK")
 #' # Perform parallel computations using the created cluster
 #' stopCluster(cluster)  # Don't forget to stop the cluster when done
 #' }
 #'
 #' @export
 create_cluster <- function(list_needed_functions_variables = list(),
-                                      num_workers = 2) {
+                           num_workers = 2,
+                           cluster_type = "PSOCK") {
 
   if (num_workers > 50) {
     stop("The workstation cannot handle more than 50 workers. Please choose a smaller number.")
   }
 
   # Create cluster
-  cl <- parallel::makeCluster(num_workers, type = "PSOCK")
+  cl <- parallel::makeCluster(num_workers, type = cluster_type)
 
   # Export own functions, data, variables to the cluster
-  parallel::clusterExport(cl,
-                list_needed_functions_variables)
+  parallel::clusterExport(cl, list_needed_functions_variables)
 
   return(cl)
 }

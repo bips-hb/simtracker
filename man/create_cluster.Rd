@@ -4,13 +4,19 @@
 \alias{create_cluster}
 \title{Create and Export Cluster for Parallel Computation}
 \usage{
-create_cluster(list_needed_functions_variables = list(), num_workers = 2)
+create_cluster(
+  list_needed_functions_variables = list(),
+  num_workers = 2,
+  cluster_type = "PSOCK"
+)
 }
 \arguments{
 \item{list_needed_functions_variables}{List with all the functions and
 variables that are needed by each process (default is an empty list)}
 
 \item{num_workers}{The number of workers in the cluster (default is 2).}
+
+\item{cluster_type}{The type of the cluster to be created (default is "PSOCK").}
 }
 \value{
 A parallel cluster object.
@@ -22,7 +28,7 @@ and returns the created cluster for parallel computations.
 \examples{
 \dontrun{
 # Example usage:
-cluster <- create_and_export_cluster(num_workers = 2)
+cluster <- create_and_export_cluster(num_workers = 2, cluster_type = "PSOCK")
 # Perform parallel computations using the created cluster
 stopCluster(cluster)  # Don't forget to stop the cluster when done
 }
