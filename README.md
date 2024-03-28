@@ -1,4 +1,4 @@
-# simtracker: A Simulation Tracking Package for R
+# `simtracker`: A Simulation Tracking Package for R
 
 ## Overview
 
@@ -96,6 +96,17 @@ simtracker::stop_cluster(cl)
 # Uncomment the line below to delete the entire simulation directory (use with caution)
 # simtracker::reset_simulation()
 ```
+
+## Future Work 
+
+We intend to add the following options:
+
+* Easily increasing the number of repetitions 
+* Adding additional parameters to the simulation set-up 
+* *Most importantly*: Adding a function that transforms the entire 
+  simulation set-up to a simple script that can be shared with everyone for 
+  reproducibility. The advantage of this would be that one would not need to 
+  install this package itself.
 
 ## Contact
 
